@@ -19,7 +19,7 @@
   text-align: center;
   color: #ffffff;
   font-family: "Montserrat", Sans-serif;
-  font-size: 88px;
+  font-size: 5.2rem;
   font-weight: 800;
   font-style: italic;
   letter-spacing: -2px;
@@ -27,7 +27,7 @@
 }
 .homeHeading2 {
   font-family: "Montserrat", Sans-serif;
-  font-size: 65px;
+  font-size: 4.2rem;
   font-weight: 800;
   font-style: italic;
   color: #ffffff;
@@ -48,14 +48,26 @@
 }
 .data {
   display: flex;
-  padding: 100px;
+  padding-top: 15rem;
   /* position: absolute; */
   background-color: black;
 }
 .image {
+  width: 30.5rem;
+  height: 30.5rem;
   border-radius: 20px 20px 20px 20px;
 }
 .para {
   font-weight: 700;
   color: white;
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
 }

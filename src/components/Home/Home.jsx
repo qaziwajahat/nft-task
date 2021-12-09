@@ -9,33 +9,30 @@ const Home = () => {
         <div className="container ">
           <div className="row">
             <div className=" col-10 mx-auto">
-              <div className="col-10  mx-auto">
-                <p className="homePara">WELCOME TO NFT REAL ESTATE</p>
-              </div>
-              <div className="col-10 mx-auto">
-                <h1 className="homeHeading">NftsRealEstate</h1>
-              </div>
-              <div className="col-10 mx-auto">
-                <div className="row">
-                  <div className="col-6 order-1 mx-auto">
-                    <button type="button" class="btn btn-warning nav-btn">
-                      Discord
-                    </button>
+              <p className="homePara">WELCOME TO NFT REAL ESTATE</p>
 
-                    <button type="button" class="btn btn-warning nav-btn">
-                      Twitter
-                    </button>
-                  </div>
+              <h1 className="homeHeading">NftsRealEstate</h1>
+
+              <div className="row">
+                <div className="col-6  mx-auto">
+                  <button type="button" class="btn btn-warning nav-btn">
+                    Discord
+                  </button>
+
+                  <button type="button" class="btn btn-warning nav-btn">
+                    Twitter
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="data">
         <div className="container">
           <div className="row ">
-            <div className="col-6">
+            <div className="col-md-6 ">
               <h1 className="homeHeading2">10000 UNIQUE REAL ESTATE NFTs</h1>
               <p className="para">
                 <strong>
@@ -61,7 +58,7 @@ const Home = () => {
                 <strong>20 super rare hotels for the heavy investors.</strong>
               </p>
             </div>
-            <div className="col-6  ">
+            <div className="col-md-6 ">
               <img className="image" src={a} alt="Pic" />
             </div>
           </div>

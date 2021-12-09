@@ -12,25 +12,7 @@ const About = () => {
   ];
   return (
     <>
-      <div className="dataa">
-        <div className="container">
-          <div className="row">
-            <div className=" col-12 ">
-              <div className="col-12 mx-auto my-auto">
-                <h1 className="homeHeading2">10000 UNIQUE REAL ESTATE NFTs</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="dataa">
-        <div className="container">
-          <div className="row">
-            <Slide />
-          </div>
-        </div>
-      </div>
-      <div className="dataa">
+      <div className="dataaa">
         <div className="container">
           <div className="row">
             <div className="col-6 ">
@@ -39,7 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="dataa">
+      <div className="dataaa">
         <div className="container">
           <div className="row">
             <div className="col-12 mx-auto">

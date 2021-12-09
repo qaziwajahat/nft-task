@@ -1,6 +1,6 @@
 .homeHeading2 {
   font-family: "Montserrat", Sans-serif;
-  font-size: 65px;
+  font-size: 6.5rem;
   font-weight: 800;
   font-style: italic;
   color: #ffffff;
@@ -9,9 +9,14 @@
   display: flex;
   width: 100%;
   margin: 0px;
-  padding-top: 200px;
+  padding-top: 20rem;
 
   background-color: black;
+}
+.iimage {
+  width: 35.5rem;
+  height: 35.5rem;
+  border-radius: 20px 20px 20px 20px;
 }
 .main {
   background-color: black;
