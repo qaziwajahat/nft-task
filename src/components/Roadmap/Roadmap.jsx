@@ -8,7 +8,7 @@ const Roadmap = () => {
       <div className="dataa">
         <div className="container">
           <div className="row">
-            <div className="col-md-6  my-auto">
+            <div className="col-md-8 ">
               <h1 className="homeHeading2">NFT'S REALESTATE ROADMAP</h1>
             </div>
           </div>
