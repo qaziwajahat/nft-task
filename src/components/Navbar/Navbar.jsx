@@ -6,14 +6,14 @@ const Navbar = () => {
   return (
     <div className="container-fluid navBar">
       <div className="row">
-        <div className=" col-10 mx-auto">
+        <div className=" col-12 mx-auto">
           <nav className=" navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid">
-              <a className="navbar-brand a" to="/">
+              <a href="#Home" className="navbar-brand a" to="/">
                 <img src={logo} alt="Logo" />
               </a>
               <button
-                className="navbar-toggler"
+                className="navbar-toggler bg-white"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -29,21 +29,32 @@ const Navbar = () => {
               >
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className={`nav-link navLink `} to="/">
+                    <a href="#Home" className={`nav-link navLink `} to="/">
                       HOME
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className={`nav-link navLink `}>ABOUT</a>
+                    <a href="#About" className={`nav-link navLink `}>
+                      ABOUT
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className={`nav-link navLink `}>ROADMAP</a>
+                    <a href="#Roadmap" className={`nav-link navLink `}>
+                      ROADMAP
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <a className={`nav-link navLink `}>TEAM</a>
+                    <a href="#Team" className={`nav-link navLink `}>
+                      TEAM
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <button type="button" class="btn btn-warning nav-btn">
+                    <button type="button" class="btn btn-warning nav-btn-nav">
+                      Buy NFT
+                    </button>
+                  </li>
+                  <li className="nav-item">
+                    <button type="button" class="btn btn-warning nav-btn-nav">
                       OPENSEA
                     </button>
                   </li>

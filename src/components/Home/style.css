@@ -32,9 +32,12 @@
   font-style: italic;
   color: #ffffff;
 }
-
+.nav-btn-posi {
+  text-align: center;
+  margin: 1rem;
+}
 .nav-btn {
-  margin: 10px;
+  margin: auto;
   font-family: "Montserrat", Sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -48,9 +51,12 @@
 }
 .data {
   display: flex;
-  padding-top: 15rem;
+  padding-top: 5rem;
   /* position: absolute; */
   background-color: black;
+}
+.span-color {
+  color: #fce38a;
 }
 .image {
   width: 30.5rem;

@@ -6,16 +6,28 @@ const Accordion = ({ title, content }) => {
 
   return (
     <div className="row">
-      <div className="col-10 mx-auto">
-        <div className="accordion-item ">
+      <div className="col-md-10 mx-auto my-auto  bg-black">
+        <div className="accordion-item bg-black ">
           <div
             className="accordion-title"
             onClick={() => setIsActive(!isActive)}
           >
-            <div className="inline">{title}</div>
-            <div className="inline">{isActive ? "-" : "+"}</div>
+            <div className="inlineLeft">{title}</div>
+            <div className="inlineRight">{isActive ? "-" : "+"}</div>
+            <div>
+              <hr
+                style={{
+                  color: "red",
+                  height: 3,
+                }}
+              />
+            </div>
           </div>
-          {isActive && <div className="accordion-content">{content}</div>}
+          {isActive && (
+            <div className="accordion-content accContent">
+              {content} <br />
+            </div>
+          )}
         </div>
       </div>
     </div>

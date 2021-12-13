@@ -14,7 +14,7 @@ function App() {
       <Home />
       <About />
       <Roadmap />
-      {/* <Team /> */}
+      <Team />
     </>
   );
 }

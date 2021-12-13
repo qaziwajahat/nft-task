@@ -12,11 +12,38 @@ const About = () => {
   ];
   return (
     <>
+      <div id="About" className="dataaa">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 d-flex">
+              <h1 className="homeHeading2">
+                <span className="span-color"> MEET </span>THE NFT'S REAL ESTATE
+                ART
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="dataaa">
         <div className="container">
           <div className="row">
-            <div className="col-6 ">
-              <h1 className="homeHeading2">TOP REAL ESTATE NFTs</h1>
+            <div className="col-12">
+              <div className="row gy-1">
+                <Slide />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="dataaa">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 d-flex">
+              <h1 className="homeHeading2">
+                <span className="span-color"> TOP </span>REAL ESTATE NFTs
+              </h1>
             </div>
           </div>
         </div>

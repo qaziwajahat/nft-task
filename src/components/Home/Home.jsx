@@ -5,24 +5,27 @@ import a from "./a.png";
 const Home = () => {
   return (
     <>
-      <div className="main">
+      <div id="Home" className="main">
         <div className="container ">
           <div className="row">
-            <div className=" col-10 mx-auto">
+            <div className=" col-12 mx-auto">
               <p className="homePara">WELCOME TO NFT REAL ESTATE</p>
 
               <h1 className="homeHeading">NftsRealEstate</h1>
 
               <div className="row">
-                <div className="col-6  mx-auto">
-                  <button type="button" class="btn btn-warning nav-btn">
+                <div className="col-md-4   "></div>
+                <div className="col-md-2 mx-auto nav-btn-posi">
+                  <button type="button" class="btn btn-warning nav-btn ">
                     Discord
                   </button>
-
+                </div>
+                <div className="col-md-2 mx-auto nav-btn-posi">
                   <button type="button" class="btn btn-warning nav-btn">
                     Twitter
                   </button>
                 </div>
+                <div className="col-md-4   "></div>
               </div>
             </div>
           </div>
@@ -33,7 +36,12 @@ const Home = () => {
         <div className="container">
           <div className="row ">
             <div className="col-md-6 ">
-              <h1 className="homeHeading2">10000 UNIQUE REAL ESTATE NFTs</h1>
+              <div className="d-flex">
+                <h1 className="homeHeading2">
+                  <span className="span-color">10000</span> UNIQUE REAL ESTATE
+                  NFTs
+                </h1>
+              </div>
               <p className="para">
                 <strong>
                   NftsRealEstate represents a collection of 10,000 unique Real

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = (props) => {
-  //   console.log(props.imgsrc);
   return (
     <>
       <div className="col-md-4 col-10 mx-auto cardCus">
