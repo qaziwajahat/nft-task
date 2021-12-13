@@ -34,8 +34,8 @@ const Home = () => {
 
       <div className="data">
         <div className="container">
-          <div className="row ">
-            <div className="col-md-6 ">
+          <div className="row">
+            <div className="col-md-6 mx-auto ">
               <div className="d-flex">
                 <h1 className="homeHeading2">
                   <span className="span-color">10000</span> UNIQUE REAL ESTATE
@@ -66,7 +66,7 @@ const Home = () => {
                 <strong>20 super rare hotels for the heavy investors.</strong>
               </p>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-6 mx-auto">
               <img className="image" src={a} alt="Pic" />
             </div>
           </div>
