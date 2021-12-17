@@ -49,14 +49,18 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <button type="button" class="btn btn-warning nav-btn-nav">
-                      Buy NFT
-                    </button>
+                    <a href="#Buynft" className={`nav-link navLink `}>
+                      <button class="btn btn-warning nav-btn-nav">
+                        Buy NFT
+                      </button>
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <button type="button" class="btn btn-warning nav-btn-nav">
-                      OPENSEA
-                    </button>
+                    <a className={`nav-link navLink `}>
+                      <button type="button" class="btn btn-warning nav-btn-nav">
+                        OPENSEA
+                      </button>
+                    </a>
                   </li>
                 </ul>
               </div>
