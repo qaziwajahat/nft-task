@@ -1,5 +1,5 @@
 import React from "react";
-import "./stylee.css";
+import "./roadmap.css";
 import Accordion from "./Accordion";
 import { accordionData } from "./AccordionData";
 const Roadmap = () => {

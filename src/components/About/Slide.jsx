@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Slide } from "react-slideshow-image";
-import "./stylee.css";
+import "./about.css";
 const MultipleSlidesExample = () => {
   const style = {
     textAlign: "center",

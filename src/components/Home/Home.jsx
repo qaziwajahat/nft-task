@@ -1,5 +1,6 @@
-import React from "react";
-import "./style.css";
+import { React } from "react";
+
+import "./home.css";
 import a from "./a.png";
 
 const Home = () => {
@@ -8,24 +9,24 @@ const Home = () => {
       <div id="Home" className="main">
         <div className="container ">
           <div className="row">
-            <div className=" col-12 mx-auto">
+            <div className=" col-md-12 mx-auto ">
               <p className="homePara">WELCOME TO NFT REAL ESTATE</p>
 
               <h1 className="homeHeading">NftsRealEstate</h1>
 
               <div className="row">
-                <div className="col-md-4   "></div>
-                <div className="col-md-2 mx-auto nav-btn-posi">
-                  <button type="button" class="btn btn-warning nav-btn ">
+                <div className="col-md-3   "></div>
+                <div className="col-md-3 mx-auto nav-btn-posi">
+                  <button type="button" className="btn btn-warning nav-btn ">
                     Discord
                   </button>
                 </div>
-                <div className="col-md-2 mx-auto nav-btn-posi">
-                  <button type="button" class="btn btn-warning nav-btn">
+                <div className="col-md-3 mx-auto nav-btn-posi">
+                  <button type="button" className="btn btn-warning nav-btn">
                     Twitter
                   </button>
                 </div>
-                <div className="col-md-4   "></div>
+                <div className="col-md-3   "></div>
               </div>
             </div>
           </div>

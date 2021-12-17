@@ -1,5 +1,5 @@
 import React from "react";
-import "./stylee.css";
+import "./about.css";
 import "react-slideshow-image/dist/styles.css";
 import Slide from "./Slide";
 import Card from "./Card";
@@ -28,7 +28,7 @@ const About = () => {
       <div className="dataaa">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-12">
               <div className="row gy-1">
                 <Slide />
               </div>
